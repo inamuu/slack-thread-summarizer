@@ -1,6 +1,9 @@
 slack bot hello
 ===
 
+Simple slack hello bot on Lambda.  
+This is practice to create slack bot written by Go lang and using Lambda.
+
 ## Architechture
 
 - Lambda
