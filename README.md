@@ -8,7 +8,7 @@ slack bot hello
 
 ## Setup
 
-- https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/golang-package.html
+https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/golang-package.html
 
 ```sh
 brew install gibo
@@ -16,7 +16,8 @@ gibo dump Go > .gitignore
 go get github.com/aws/aws-lambda-go/lambda
 ```
 
-Setup Lambda
+## Setup Lambda
+
 ```sh
 aws lambda create-function --function-name slack-bot-hello --runtime go1.x \
   --zip-file fileb://hello.zip --handler main \
