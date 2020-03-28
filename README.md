@@ -1,4 +1,4 @@
-slack_bot_hellp
+slack bot hello
 ===
 
 ## Architechture
