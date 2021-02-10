@@ -1,4 +1,4 @@
-slack bot hello
+slack thread summarizer
 ===
 
 Simple slack hello bot on Lambda.  
