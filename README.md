@@ -39,3 +39,11 @@ zip main.zip ./main
 ```sh
 aws lambda update-function-code --function-name slack-thread-summarizer --zip-file fileb://main.zip --profile XXX
 ```
+
+## How to use Makefile
+
+Deploy(delete zip file, build, zip, upload to lambda)
+
+```sh
+make deploy PROFILE="AWSPROFILENAME"
+```

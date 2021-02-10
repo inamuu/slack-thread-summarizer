@@ -1,4 +1,3 @@
-
 package main
 
 import (
@@ -8,8 +7,8 @@ import (
 )
 
 func hello() (string, error) {
-	log.Printf("Hello World")
-	return "Hello", nil
+	log.Printf("Hello World2")
+	return "Hello2", nil
 }
 
 func main() {
