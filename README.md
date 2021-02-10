@@ -22,10 +22,9 @@ go get github.com/aws/aws-lambda-go/lambda
 ## Setup Lambda
 
 ```sh
-aws lambda create-function --function-name slack-thread-summrizer --runtime go1.x \
-  --zip-file fileb://hello.zip --handler main \
+aws lambda create-function --function-name slack-thread-summarizer --runtime go1.x \
+  --zip-file fileb://main.zip --handler main \
   --role arn:aws:iam::XXXXX:role/AWS_Lambda --profile XXXXX
-
 ```
 
 ## Build function
@@ -38,5 +37,5 @@ zip main.zip ./main
 ## Upload function
 
 ```sh
-aws lambda update-function-code --function-name slack-bot-hello --zip-file fileb://main.zip --profile XXX
+aws lambda update-function-code --function-name slack-thread-summarizer --zip-file fileb://main.zip --profile XXX
 ```
